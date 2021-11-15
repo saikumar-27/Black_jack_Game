@@ -1,0 +1,252 @@
+body {
+  background-image: url("https://cutewallpaper.org/21/blackjack-wallpaper/Casino-Game-Wallpapers-Top-Free-Casino-Game-Backgrounds-.jpg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.patterns {
+  margin-top: 10px;
+  height: 10vh;
+}
+
+svg text {
+  font-family: Lora;
+  letter-spacing: 10px;
+  stroke: #f68cc8;
+  font-size: 50px;
+  font-weight: 70;
+  stroke-width: 3;
+
+  animation: textAnimate 5s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill: hsl(59, 100%, 50%);
+  }
+
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%, 0%);
+  }
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-blackjack-row-2 div {
+  padding: 10px;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+}
+
+.flex-blackjack-row-2 div img {
+  padding: 10px;
+  object-fit: contain;
+}
+
+.flex-blackjack-row-3 div {
+  padding: 10px;
+}
+
+.flex-blackjack-row-3 div button {
+  margin-top: 100px;
+}
+
+table,
+th,
+td {
+  padding: 6px;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+span {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#win-header {
+  color: lightgreen;
+}
+
+#loss-header {
+  color: red;
+}
+
+#draw-header {
+  color: yellow;
+}
+img {
+  width: 165px;
+  height: 165px;
+}
+
+/* Media Queries  */
+
+/* laptop */
+
+@media all and (max-width: 1024px) {
+  body {
+    background-image: url("images/background.jpg");
+  }
+}
+
+/* Tablet */
+
+@media all and (max-width: 768px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+  }
+  img {
+    padding: 1px;
+  }
+  div #your-box,
+  #dealer-box {
+    justify-content: center;
+    padding: 2px;
+    border: 2px;
+    height: 300px;
+    width: 500px;
+  }
+}
+
+/* large-Mobile */
+@media all and (max-width: 425px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+  }
+  svg text {
+    font-family: Lora;
+    letter-spacing: 8px;
+    stroke: #f68cc8;
+    font-size: 40px;
+    font-weight: 20;
+    stroke-width: 3;
+
+    animation: textAnimate 5s infinite alternate;
+  }
+  div #your-box,
+  #dealer-box {
+    justify-content: center;
+    padding: 1px;
+    border: 1px;
+    height: 350px;
+    width: 100px;
+  }
+
+  .flex-blackjack-row-3 div button {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: medium;
+  }
+  img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .flex-blackjack-row-2 div h2 {
+    font-size: larger;
+  }
+}
+
+/* Medium-Mobile */
+@media all and (max-width: 375px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+  }
+  svg text {
+    font-family: Lora;
+    letter-spacing: 8px;
+    stroke: #f68cc8;
+    font-size: 40px;
+    font-weight: 20;
+    stroke-width: 3;
+
+    animation: textAnimate 5s infinite alternate;
+  }
+  div #your-box,
+  #dealer-box {
+    justify-content: center;
+    padding: 1px;
+    border: 1px;
+    height: 350px;
+    width: 600px;
+  }
+
+  .flex-blackjack-row-3 div button {
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    font-size: medium;
+  }
+  img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .flex-blackjack-row-2 div h2 {
+    font-size: larger;
+  }
+}
+
+/* Small-Mobile */
+@media all and (max-width: 320px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+  }
+  svg text {
+    font-family: Lora;
+    letter-spacing: 8px;
+    stroke: #f68cc8;
+    font-size: 40px;
+    font-weight: 20;
+    stroke-width: 3;
+
+    animation: textAnimate 5s infinite alternate;
+  }
+  div #your-box,
+  #dealer-box {
+    justify-content: center;
+    padding: 1px;
+    border: 1px;
+    height: 350px;
+    width: 100px;
+  }
+
+  .flex-blackjack-row-3 div button {
+    padding: 7px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    font-size: medium;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .flex-blackjack-row-2 div h2 {
+    font-size: medium;
+  }
+}
